@@ -8,8 +8,15 @@ and it can open a fix pull request for you to review. It does not merge.
 
 ## Install
 
+Node.js, Next.js, browser, and edge apps:
+
 ```sh
 npm install @squasher-ai/node    # or nextjs, browser, edge
+```
+
+Go apps only (Go 1.21 or later), from the folder with `go.mod`:
+
+```sh
 go get github.com/squasher-ai/squasher-go
 ```
 
